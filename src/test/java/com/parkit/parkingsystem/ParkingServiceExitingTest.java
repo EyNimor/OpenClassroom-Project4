@@ -22,7 +22,7 @@ import java.util.Date;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class ParkingServiceTest {
+public class ParkingServiceExitingTest {
 
     private static DataBaseTestConfig dataBaseTestConfig = new DataBaseTestConfig();
 

@@ -65,7 +65,7 @@ public class TicketDAO {
                 ticket.setInTime(rs.getTimestamp(4));
                 ticket.setOutTime(rs.getTimestamp(5));
             }
-            if(rs.getFetchSize() >= 1) {
+            if(rs.getFetchSize() >= 2) {
                 ticket.setDiscountRate(0.95);
             }
             else {
